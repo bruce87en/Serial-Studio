@@ -94,6 +94,7 @@ Start-Process -FilePath $INSTALLER_PATH `
         "--accept-licenses",
         "--default-answer",
         "--confirm-command",
+        "--accept-obligations",
         "install", "$ALIAS_PACKAGE"
     ) `
     -Wait -NoNewWindow

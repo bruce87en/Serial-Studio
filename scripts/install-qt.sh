@@ -107,6 +107,7 @@ if [ "$OS_NAME" = "Darwin" ]; then
     --accept-licenses \
     --default-answer \
     --confirm-command \
+    --accept-obligations \
     install "$ALIAS_PACKAGE"
 
   echo "Unmounting..."
@@ -132,4 +133,5 @@ echo "Installing Qt via CLI: $ALIAS_PACKAGE"
   --accept-licenses \
   --default-answer \
   --confirm-command \
+  --accept-obligations \
   install "$ALIAS_PACKAGE"
